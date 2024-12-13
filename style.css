@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+body {
+  margin: 0;
+  font-family: "Inter";
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  padding: 0 165px;
+}
+
+.logo  {
+    font-family: "Pacifico";
+    font-size: 45px;
+}
+
+
+header a{
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #18191f;
+  text-decoration: 32px;
+  }
+
+  .banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 670px;
+    padding: 0 50px 0 165px;
+    position: relative;
+    background-image: url("banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+.text1 h1 {
+  font-weight: 800;
+  font-size: 72px;
+  line-height: 98px;
+  color: #18191f;
+  margin: 0;
+}
+.text1 p {
+  font-size: 18px;
+  line-height: 32px;
+  color: #18191f;
+  margin-top: 16px;
+  margin-bottom: 32px;
+}
+
+.text1 a {
+  font-weight: 500;
+  font-size: 16px;
+  color: white;
+  text-decoration: none;
+  padding: 12px 32px;
+  background-color: #ffad00;
+  border-radius: 6px;
+}
+
+.banner img {
+  width: 670px;
+  height: 419px;
+}
+
+
+.section{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 0;
+  flex-direction: column;
+  background-color: #00c618;
+}
+
+.cards{
+  display: flex;
+  margin: 48px 0;
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 300px;
+  width: 350px;
+  background-color: blanchedalmond;
+  padding: 40px;
+  margin-right: 30px;
+}
+
+.card img{
+  width: 32px;
+  height: 32px;
+}
+
+
+
+
+
+
+
+
+
+
+
